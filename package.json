@@ -1,0 +1,36 @@
+{
+  "name": "schmay",
+  "version": "1.0.0",
+  "description": "A CLI wrapper for the 'say' command which uses a GO-like voice.",
+  "license": "MIT",
+  "repository": "jxom/schmay",
+  "author": {
+    "name": "jxom",
+    "email": "jakemoxey@gmail.com",
+    "url": "jxom.io"
+  },
+  "bin": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "xo",
+    "prepublish": "npm run lint"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "space": true,
+    "rules": {
+      "object-curly-spacing": ["error", "always"]
+    }
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "schmanslate": "1.0.3"
+  },
+  "devDependencies": {
+    "xo": "^0.17.0"
+  }
+}
